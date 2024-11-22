@@ -1,0 +1,41 @@
+.task_detail {
+    
+    border-radius: 6px;
+    border: 3px solid var(--Border-Primary, #6285D9);
+    background: var(--Background-Primary, linear-gradient(90deg, #465992 0%, #5B6FA1 100%));
+}
+
+.task_icon {
+    padding: 5px;
+    border-radius: 4px;
+    border: 2px solid var(--Border-Secondary, #343B77);
+    background: var(--Background-Secondary, #20244C);
+    
+}
+
+.task_modal {
+    padding: 15px;
+    border-radius: 8px;
+    border: 3px solid var(--Border-Secondary, #343B77);
+    background: var(--Background-Secondary, #20244C);
+}
+
+.task_circle {
+    border-radius: 26px;
+    border: 2px solid var(--Border-Secondary, #343B77);
+    background: var(--Background-Primary, linear-gradient(90deg, #465992 0%, #5B6FA1 100%));
+    width: 25px;
+    height: 25px;
+    padding-top: 2px;
+    padding-left: 7px;
+
+}
+
+.dotreverse {
+    display: inline-block;
+    /* transform: scaleY(-1); */
+    color: #04af2f;
+    transform: rotate(90deg);
+    
+    color: #FFFFFF;
+}
